@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f8ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 10%;
+}
+
+@media (min-width: 960px) {
+  .container {
+    margin: 0;
+  }
+}
+
+.image {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .image {
+    width: 370px;
+  }
+}

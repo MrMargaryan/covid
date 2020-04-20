@@ -1,0 +1,21 @@
+.card {
+  margin: 10px 0 !important;
+}
+
+@media (min-width: 960px) {
+  .card {
+    margin: 0 10px !important;
+  }
+}
+
+.card:nth-child(1) {
+  border-bottom: 10px solid #e9a927;
+}
+
+.card:nth-child(2) {
+  border-bottom: 10px solid #487f1e;
+}
+
+.card:nth-child(3) {
+  border-bottom: 10px solid #db0300;
+}
